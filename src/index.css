@@ -73,8 +73,8 @@ transition: 0.3s;
 }
 
 .minicardimg{
-  border-radius: 50%;
-  border: 2px dotted black;
+ 
+ 
  margin-bottom: 5px;
 
 }
@@ -82,7 +82,7 @@ transition: 0.3s;
   justify-content: center;
 }
 .minicardtext{
-  text-align: justify;
+  text-align: center;
 
 }
 .minicardheading{
@@ -238,6 +238,7 @@ padding: 15px 15px;
   font-size: 16px;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
+
 }
 
 .footerli:hover {
@@ -281,8 +282,9 @@ text-shadow: 2px 2px 4px blue;
   
  position: relative;
  max-width:100%;
- height: 500px;
+ height: 700px;
  overflow: hidden;
+ margin-bottom:30px ;
 }
 .aboutimgtext{
   position: absolute;
@@ -343,3 +345,126 @@ margin-bottom: 50px;
        max-width: 100%; 
     margin-bottom:25px ;
       } 
+      .countryli{
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align:justify;
+      }
+      .Aboutendbtn{
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFF;
+        background-color: #333;
+        padding: 10px 25px;
+        text-align: center;
+        border: 2px solid black;
+        margin: 10px ;
+      }
+      .Aboutendbtn:hover{
+        background-color: #de8f53;
+        color: #FFF;
+
+      }
+      .Aboutend{
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: capitalize;
+      }
+      .story{
+       padding: 20px 30px;
+       margin-bottom: 70px;
+      }
+      .brandstorybtn{
+        text-decoration: none;
+        font-size: 22px;
+        color: #333;
+        background: transparent;
+        border: 2px solid black;
+        padding: 5px 30px 5px 30px ;
+
+      }
+      .brandstorybtn:hover{
+        background-color:#E3843D;
+        color: #FFF;
+      }
+      .brandstoryvideo{
+        margin-bottom: 20px;
+      }
+     .bsimgtxt{
+      
+      padding: calc(3% + 10px) 0;
+      background: #f6f6f6;
+      box-shadow: 0px -8vw 0 #fff inset;
+    
+     }
+     .bstext{
+      background-color: #FFF;
+   padding: 10px 20px 25px 30px;
+   
+    }
+    
+     
+     .bsimg{
+      border-radius: 2%;
+     }
+    .bstextp{
+     font-size: 18px;
+    }
+    .bstextp::before{
+      content: "➤";
+  display: inline-block;
+  margin-right: 10px;
+    }
+  .wpfmbg{
+    padding: calc(2.5% + 10px) 0;
+    background: url("https://icdn.tradew.com/stylefile/20525/projectTwo-bg.jpg?x-oss-process=image/format,webp") center no-repeat fixed;
+}
+  .whypfmimg:hover{
+transform: scale(1.05);
+  }
+  .whypfmimg{
+    transition: 2s;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+  .whypfmbtn{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    max-width: 200px;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase
+  }
+  .textPFMPROJECT{
+ 
+    position:relative;
+right: 10px;
+ bottom: 15%;
+    
+padding: 10px 20px;    
+background: rgba(0,0,0,0.5);
+    max-width: 500px;
+  }
+  .textPFMPROJECT h2{
+    font-size: 30px;
+    color: #fff;
+    line-height: 35px;
+    display: block;
+    font-weight: 400;
+    padding: 5px 0px 15px
+  }
+.text::before{
+  content: "";
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  top: calc(35% - 10px);
+  left: calc(10% - 10px);
+  background: #e3843d;
+}

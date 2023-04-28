@@ -9,6 +9,8 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Navbar from "./Navbar";
 import "./index.css";
 import Footer from "./Footer";
+import Brandstory from "./Brandstory";
+import Whypfm from "./Whypfm";
 
 
 
@@ -23,7 +25,8 @@ const App=()=>{
 <Route  path="/about" element={<About/>} />
 <Route  path="/contact" element={<Contact/>} />
 <Route  path="/service" element={<Service/>} />
-<Route  path="/service" element={<Service/>} />
+<Route  path="/brandstory" element={<Brandstory/>} />
+<Route  path="/whypfm" element={<Whypfm/>} />
 
 
 </Routes>

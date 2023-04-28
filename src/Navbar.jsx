@@ -53,9 +53,9 @@ const Navbar=()=>{
           <NavLink activeClassName='active' className="nav-link  dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>About</NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
             <li><NavLink className="dropdown-item" to="/about">About PFM</NavLink></li>
-            <li><NavLink className="dropdown-item" to="#">Brand Story</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/brandstory">Brand Story</NavLink></li>
             
-            <li><NavLink className="dropdown-item" to="#">Why PFM</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/whypfm">Why PFM</NavLink></li>
           </ul>
         </li>
         <li className="nav-item">

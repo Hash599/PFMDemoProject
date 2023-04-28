@@ -12,7 +12,7 @@ return(
 {props.heading}
 </h5>
 </div>
-<div className="minicardtext}"><p>
+<div className="minicardtext"><p>
 
 {props.text}
 </p>

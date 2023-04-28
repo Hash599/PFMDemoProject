@@ -3,22 +3,22 @@ import Navbar from "./Navbar";
 import Imagetext from "./Imagetext";
 import Textimage from "./Textimage";
 import Countries from "./Countries";
+import { Link } from "react-router-dom";
+import CommonImg from "./CommonImg";
 const About=()=>{
     return(
         <>
 <Navbar/>
-<div className="aboutimg">
-    <img src="https://icdn.tradew.com/stylefile/20525/about-top.jpg?x-oss-process=image/format,webp"/>
-<div className="aboutimgtext text-center">
-ABOUT PFM | LUXURY VILLA SOLUTION
-</div>
-</div>
+<CommonImg imgsrc="https://icdn.tradew.com/stylefile/20525/about-top.jpg?x-oss-process=image/format,webp"
+    text="ABOUT PFM | LUXURY VILLA SOLUTION"
+/>
 <div className="text-center belowimgtext">
 <h1>
 LUXURY VILLA SOLUTION Contractor
 
 </h1>
 </div>
+
 <div className="row video">
 
     <div className="col-1"></div>
@@ -103,14 +103,135 @@ btn="View More"
 <div className="row">
 <div className="col-1"></div>
     <div className="col">
+<div className="row">
+<div className="col">
 
 <Countries continent="Africa"
-    name="Gabon"
-    
-    
+   countryname="Gabon"
+   countryname1="Tanzania"
+   countryname2="Zanzibar"
+   countryname3="Ghana"
+   countryname4="Ethopia"
+   countryname5="Cameron"
+   countryname7="Kenya"
+   countryname8="Mauritius"
+   countryname9="Sierra Leone"
+   countryname10="Uganda"
+   countryname11="Indonesia"
+ countryname12="Cango "    
+   countryname13="Libya "    
 />
-    </div>
 </div>
+<div className="col">
+
+<Countries continent="Europe"
+   countryname="Norway"
+   countryname1="Latvia"
+   countryname2="Estonia"
+   countryname3="Bulgaria"
+   countryname4="Germany"
+   countryname5="France"
+   countryname7="Netherland"
+   countryname8="Croatia"
+   countryname9="Romania"
+   countryname10="Sweden"
+   countryname11="Ukraine"
+ countryname12="Spain"    
+   countryname13="Italy"    
+/>
+</div>
+<div className="col">
+
+<Countries continent="Asia"
+   countryname="Macao"
+   countryname1="Azerbaijan"
+   countryname2="China"
+   countryname3="Pakistan"
+   countryname4="Philippines"
+   countryname5="Hong Kong"
+   countryname7="Cambodia"
+   countryname8="Maldives"
+   countryname9="Malaysia"
+   countryname10="Bengal"
+   countryname11="Srilanka"
+ countryname12="India "    
+   countryname13="Kyrgyzstan "    
+/>
+</div>
+<div className="col">
+
+<Countries continent="North America"
+   countryname="California"
+   countryname1="Canada"
+   countryname2="Cayman Islands"
+   countryname3="United States"
+  
+/>
+<Countries continent="Oceania"
+   countryname="Australia"
+   countryname1="New zealand"
+   countryname2="Guam"
+   countryname3="Fiji"
+   countryname4="Tahiti"
+  
+/>
+</div>
+<div className="col">
+
+<Countries continent="Middle East"
+   countryname="Yemen"
+   countryname1="Arab"
+   countryname2="UAE"
+   countryname3="Oman"
+   countryname4="Egypt"
+   countryname5="Dubai"
+   countryname7="Qatar"
+   countryname8="Kuwait"
+   countryname9="Cyprus"
+   countryname10="Palestine"
+   countryname11="Saudi Arabia"
+ countryname12="Iraq "    
+   countryname13="Jordan"    
+/>
+</div>
+<div className="col">
+
+<Countries continent="South America"
+   countryname="Trinidad"
+   countryname1="Panama"
+   countryname2="Brazil"
+   countryname3="Mexico"
+   countryname4="Bolivia"
+   countryname5="Ecuador"
+   countryname7="Colombia"
+   countryname8="Costa Rica"
+   countryname9="Venezuela"
+   countryname10="Jamaica"
+      
+/>
+</div>
+
+ </div>
+   </div>
+</div>
+ <hr style={{ color: "Black", backgroundColor: "Black", height:4}} />
+      <div className="row">
+
+      <div className="col-1">
+      
+      </div>
+      <div className="col-7">
+      <div className="Aboutend">
+        <h2>Get in touch with us to discuss your upcoming project with our experienced team.</h2>
+       </div>
+      </div>
+      <div className="col text-center">
+   
+       <Link className="Aboutendbtn">LET'S TALK</Link>
+       </div>
+      </div>
+      
+       
         </>
     )
 }
