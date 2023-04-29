@@ -3,6 +3,10 @@
   
  
 }
+.nav-link:hover{
+  text-decoration: underline orangered;
+}
+
 .nav_bg{
   margin-top: 40px;
   background: rgba(0,0,0,0.3);
@@ -282,7 +286,7 @@ text-shadow: 2px 2px 4px blue;
   
  position: relative;
  max-width:100%;
- height: 700px;
+ height: 600px;
  overflow: hidden;
  margin-bottom:30px ;
 }
@@ -316,25 +320,23 @@ margin-bottom: 50px;
   font-size: 18px;
   padding: 10px 20px;
 }
-.imgtxtbtn{
-  display: inline-block;
+
+  
+.imgtxtbtn:hover {
+  color: #e3843d;
+  transform: translateY(-2px);
+
+}.imgtxtbtn{
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   color: black;
   background-color:transparent;
-  border: 2px solid black;
-  border-radius: 0.25rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-}
-  
-.imgtxtbtn:hover {
-  color: #e3843d;
-  transform: translateY(-2px);
-  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
 .imgtxtbtn:active {
@@ -467,4 +469,67 @@ background: rgba(0,0,0,0.5);
   top: calc(35% - 10px);
   left: calc(10% - 10px);
   background: #e3843d;
+}
+.contactrighttext{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.socialIcons{
+  margin-right: 15px;
+}
+.centertext::before{
+  content: " '' ";
+
+}
+.centertext::after{
+  content: " '' ";
+
+}
+.centertext{
+  margin-bottom: 50px;
+}
+.kindofservices{
+  background:#f7f7f7 ;
+  padding: calc(2% + 10px) 0;
+  margin-bottom: 80px;
+}
+.kindofservices::before{
+  content: " ";
+    width: 35px;
+    height: 30px;
+    display: block;
+    margin: 0 auto calc(1vw + 20px);
+    background: url("https://icdn.tradew.com/stylefile/20525/Two.png?x-oss-process=image/format,webp") center no-repeat;
+}
+.kindofservicestext{
+  float: none;
+    font-size: calc(1vw + 30px);
+    line-height: calc(1.5vw + 40px);
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    text-transform: uppercase
+}
+.imgtextdiv{
+  text-align:left;
+  
+}
+.lastpfmcost::before{
+  content: " ";
+    width: 35px;
+    height: 30px;
+    display: block;
+    margin: 0 auto calc(0.25vw + 10px);
+    background: url(https://icdn.tradew.com/stylefile/20525/Two.png?x-oss-process=image/format,webp) center no-repeat;
+}
+.lastpfmcosttitle::after{
+  content: " ";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #e1e1e1;
+}
+.list{
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 25px;
 }

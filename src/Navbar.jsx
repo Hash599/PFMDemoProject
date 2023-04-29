@@ -50,7 +50,7 @@ const Navbar=()=>{
           <NavLink activeClassName="active" className="nav-link" aria-current="page" to="/" style={{color:navbaritemColor}}>Home</NavLink>
         </li>
         <li className="nav-item dropdown">
-          <NavLink activeClassName='active' className="nav-link  dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>About</NavLink>
+          <NavLink activeClassName='active' className="nav-link"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>About</NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
             <li><NavLink className="dropdown-item" to="/about">About PFM</NavLink></li>
             <li><NavLink className="dropdown-item" to="/brandstory">Brand Story</NavLink></li>
@@ -58,8 +58,17 @@ const Navbar=()=>{
             <li><NavLink className="dropdown-item" to="/whypfm">Why PFM</NavLink></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <NavLink activeClassName='active' className="nav-link" to="/about"  style={{color:navbaritemColor}}>Project</NavLink>
+        <li className="nav-item dropdown">
+          <NavLink activeClassName='active' className="nav-link"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>Project</NavLink>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
+            <li><NavLink className="dropdown-item" to="/whypfm"> Why PFM</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/pfmprojectcost">PFM Project Cost</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/ourproject">Our Project</NavLink></li>
+            
+            <li><NavLink className="dropdown-item" to="/stonefacadeproject">Stone Facade Project</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxuryinteriorproject">Luxury Interior Project</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/landscapeproject">Landscape Project</NavLink></li>
+          </ul>
         </li>
         <li className="nav-item">
           <NavLink activeClassName='active' className="nav-link" to="/service"  style={{color:navbaritemColor}}>Service Capability</NavLink>

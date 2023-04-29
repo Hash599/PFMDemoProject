@@ -11,6 +11,9 @@ import "./index.css";
 import Footer from "./Footer";
 import Brandstory from "./Brandstory";
 import Whypfm from "./Whypfm";
+import PFMprojectcost from "./PFMprojectcost";
+import StoneFacadeproject from "./StoneFacadeproject";
+import Luxuryinteriorproject from "./Luxuryinteriorproject";
 
 
 
@@ -28,7 +31,9 @@ const App=()=>{
 <Route  path="/brandstory" element={<Brandstory/>} />
 <Route  path="/whypfm" element={<Whypfm/>} />
 
-
+<Route  path="/pfmprojectcost" element={<PFMprojectcost/>} />
+<Route  path="/stonefacadeproject" element={<StoneFacadeproject/>} />
+<Route  path="/luxuryinteriorproject" element={<Luxuryinteriorproject/>} />
 </Routes>
 
 <Footer/>
