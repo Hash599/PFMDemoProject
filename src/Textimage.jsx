@@ -12,7 +12,7 @@ const Textimage=(props)=>{
    
     </div>
     <div className="col imgtxtimg">
-    <img src={props.imgsrc}/>
+    <img src={props.imgsrc} style={{width:"100%"}}/>
          </div>
 </div>
 

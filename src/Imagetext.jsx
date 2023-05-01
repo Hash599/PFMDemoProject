@@ -6,7 +6,7 @@ const Imagetext=(props)=>{
 <div className="row imgtxt">
     <div className="col-1"></div>
     <div className="col imgtxtimg">
-        <img src={props.imgsrc}/>
+        <img src={props.imgsrc} style={{width:"98%"}}/>
     </div>
     <div className="col imgtxtt">
         <h2> {props.heading}</h2>

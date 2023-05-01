@@ -486,6 +486,7 @@ background: rgba(0,0,0,0.5);
 }
 .centertext{
   margin-bottom: 50px;
+  font-size: 30px;
 }
 .kindofservices{
   background:#f7f7f7 ;
@@ -532,4 +533,51 @@ background: rgba(0,0,0,0.5);
   padding: 5px;
   font-size: 16px;
   margin-left: 25px;
+}
+.process{
+  background-color: #e1e1e1;
+}
+.process::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #e3843d;
+  display: block;
+  margin: 0 auto 10px;
+
+}
+.processheading::before{
+  content: "";
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #e3843d;
+    top: calc(2.5vw + 19px);
+    position: absolute;
+}
+.processheading::after{
+  content: "";
+    width: calc(1.25vw + 3px);
+    height: calc(1.25vw + 3px);
+    border-radius: 50%;
+    background: #e3843d;
+    position: absolute;
+    top: calc(2.5vw + 20px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.serviceheading::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #e3843d;
+  display: block;
+  margin: 0 auto 10px;
+
+}
+.servicetext{
+  padding: 10px;
+}
+.ProjectDeliveries{background: linear-gradient(45deg, grey, white);
+     
 }

@@ -14,7 +14,9 @@ import Whypfm from "./Whypfm";
 import PFMprojectcost from "./PFMprojectcost";
 import StoneFacadeproject from "./StoneFacadeproject";
 import Luxuryinteriorproject from "./Luxuryinteriorproject";
-
+import LandscapeProject from "./LandscapeProject";
+import OurProject from "./OurProject";
+import InteriorFitout from "./InteriorFitout";
 
 
 const App=()=>{
@@ -34,6 +36,9 @@ const App=()=>{
 <Route  path="/pfmprojectcost" element={<PFMprojectcost/>} />
 <Route  path="/stonefacadeproject" element={<StoneFacadeproject/>} />
 <Route  path="/luxuryinteriorproject" element={<Luxuryinteriorproject/>} />
+<Route  path="/landscapeproject" element={<LandscapeProject/>} />
+<Route  path="/ourproject" element={<OurProject/>} />
+<Route  path="/interiorfitout" element={<InteriorFitout/>} />
 </Routes>
 
 <Footer/>
