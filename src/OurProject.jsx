@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "./Card";
 import Navbar from "./Navbar";
 import CommonImg from "./CommonImg";
+import OurProjectCards from "./OurProjectCards";
 const OurProject=()=>{
     return(
         <> 
@@ -22,6 +23,7 @@ const OurProject=()=>{
        <img  style={{width:"100%"}} src="https://icdn.tradew.com/file/201811/1573270/jpg/7717156.jpg?x-oss-process=image/format,webp"/>
         </div>
         </div>
+        <OurProjectCards/>
         
         </>
     )

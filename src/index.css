@@ -581,3 +581,27 @@ background: rgba(0,0,0,0.5);
 .ProjectDeliveries{background: linear-gradient(45deg, grey, white);
      
 }
+.minilinktext::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #e3843d;
+  display: block;
+  margin: 0 auto 10px;
+
+}
+.minilinkitem{
+  text-decoration: none;
+  line-height: 10px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(99, 99, 94);
+}
+.minilinkitem:hover{
+  text-decoration: underline;
+color: #de8f53;
+}
+.minilinkitem:active{
+  color: #de8f53;
+  
+}
