@@ -17,7 +17,10 @@ import Luxuryinteriorproject from "./Luxuryinteriorproject";
 import LandscapeProject from "./LandscapeProject";
 import OurProject from "./OurProject";
 import InteriorFitout from "./InteriorFitout";
-
+import OneStopVilla from "./OneStopVilla";
+import DeliveryProcess from "./DeliveryProcess";
+import Video from "./Video";
+import Constructionconsulting from "./Constructionconsulting";
 
 const App=()=>{
 
@@ -39,6 +42,10 @@ const App=()=>{
 <Route  path="/landscapeproject" element={<LandscapeProject/>} />
 <Route  path="/ourproject" element={<OurProject/>} />
 <Route  path="/interiorfitout" element={<InteriorFitout/>} />
+<Route  path="/onestopvilla" element={<OneStopVilla/>} />
+<Route  path="/deliveryprocess" element={<DeliveryProcess/>} />
+<Route  path="/constructionconsulting" element={<Constructionconsulting/>}/>
+<Route  path="/video" element={<Video/>}/>
 </Routes>
 
 <Footer/>

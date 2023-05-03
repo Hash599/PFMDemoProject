@@ -73,13 +73,13 @@ const Navbar=()=>{
         <li className="nav-item dropdown">
           <NavLink activeClassName='active' className="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>Service Capability</NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
-            <li><NavLink className="dropdown-item" to="/whypfm"> One-Stop Villa Solution</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/onestopvilla"> One-Stop Villa Solution</NavLink></li>
             <li><NavLink className="dropdown-item" to="/pfmprojectcost">Luxury Design Service</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/ourproject">Delivery Process</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/deliveryprocess">Delivery Process</NavLink></li>
             
             <li><NavLink className="dropdown-item" to="/interiorfitout">Interior Fit Out</NavLink></li>
             <li><NavLink className="dropdown-item" to="/luxuryinteriorproject">Villa Renovation</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/landscapeproject">Construction Consulting</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/constructionconsulting">Construction Consulting</NavLink></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -92,7 +92,7 @@ const Navbar=()=>{
           <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Support</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Video</NavLink>
+          <NavLink activeClassName='active' className="nav-link" to="/video"  style={{color:navbaritemColor}}>Video</NavLink>
         </li>
         <li className="nav-item">
           <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Contact</NavLink>
