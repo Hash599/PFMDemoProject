@@ -74,7 +74,7 @@ const Navbar=()=>{
           <NavLink activeClassName='active' className="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style={{color:navbaritemColor}}>Service Capability</NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
             <li><NavLink className="dropdown-item" to="/onestopvilla"> One-Stop Villa Solution</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/pfmprojectcost">Luxury Design Service</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxurydesignservice">Luxury Design Service</NavLink></li>
             <li><NavLink className="dropdown-item" to="/deliveryprocess">Delivery Process</NavLink></li>
             
             <li><NavLink className="dropdown-item" to="/interiorfitout">Interior Fit Out</NavLink></li>
@@ -82,11 +82,30 @@ const Navbar=()=>{
             <li><NavLink className="dropdown-item" to="/constructionconsulting">Construction Consulting</NavLink></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Supply Products</NavLink>
+        <li className="nav-item dropdown">
+          <NavLink activeClassName='active' className="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"   style={{color:navbaritemColor}}>Supply Products</NavLink>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
+          <li><NavLink className="dropdown-item" to="/onestopvilla"> One-Stop Villa Solution</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxurydesignservice">Luxury Design Service</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/deliveryprocess">Delivery Process</NavLink></li>
+            
+            <li><NavLink className="dropdown-item" to="/interiorfitout">Interior Fit Out</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxuryinteriorproject">Villa Renovation</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/constructionconsulting">Construction Consulting</NavLink></li>
+       </ul>
         </li>
-        <li className="nav-item">
-          <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Engineering Capability</NavLink>
+        <li className="nav-item dropdown">
+          <NavLink activeClassName='active' className="nav-link" to="/contact" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"   style={{color:navbaritemColor}}>Engineering Capability</NavLink>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
+          <li><NavLink className="dropdown-item" to="/stonefacadesolution"> Stone Facade Solution</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/columnandpilaster">Columns & Pilaster</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/deliveryprocess">Delivery Process</NavLink></li>
+            
+            <li><NavLink className="dropdown-item" to="/interiorfitout">Interior Fit Out</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxuryinteriorproject">Villa Renovation</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/constructionconsulting">Construction Consulting</NavLink></li>
+       </ul>
+        
         </li>
         <li className="nav-item">
           <NavLink activeClassName='active' className="nav-link" to="/contact"  style={{color:navbaritemColor}}>Support</NavLink>

@@ -21,7 +21,9 @@ import OneStopVilla from "./OneStopVilla";
 import DeliveryProcess from "./DeliveryProcess";
 import Video from "./Video";
 import Constructionconsulting from "./Constructionconsulting";
-
+import LuxuryDesignService from "./LuxuryDesignService";
+import StoneFacadeSolution from "./StoneFacadeSolution";
+import ColumnsandPilaster from "./ColumnsandPilaster";
 const App=()=>{
 
  
@@ -46,6 +48,9 @@ const App=()=>{
 <Route  path="/deliveryprocess" element={<DeliveryProcess/>} />
 <Route  path="/constructionconsulting" element={<Constructionconsulting/>}/>
 <Route  path="/video" element={<Video/>}/>
+<Route  path="/luxurydesignservice" element={<LuxuryDesignService/>}/>
+<Route  path="/stonefacadesolution" element={<StoneFacadeSolution/>}/>
+<Route  path="/columnandpilaster" element={<ColumnsandPilaster/>}/>
 </Routes>
 
 <Footer/>

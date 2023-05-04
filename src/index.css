@@ -265,7 +265,7 @@ text-shadow: 2px 2px 4px blue;
   color: #333 !important;
   background-color: #fff !important;
   
-  
+  border-bottom: 2px solid black;
   
   font-size: 14px;
   padding: 10px 20px;
@@ -820,3 +820,41 @@ text-decoration: none;
   margin: 14px 0px;
 
  }
+ .DS{
+  background-color: #dddddd;
+  padding: 20px;
+ }
+ .DS h1{
+  text-align: center;
+ }
+ .DS p{
+  text-align: center;
+  margin: 15px;
+ }
+ .DS h1::before{ 
+  position:absolute;
+  right: 50%;
+  content: "";
+  width: 50px;
+  height: 5px;
+  background: #e3843d;
+  display: block;
+  }
+  .IS h1::before{
+
+    position:absolute;
+    right: 50%;
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #e3843d;
+    display: block;
+  }
+  .IS h1{
+    text-align: center;
+  margin: 10px;
+  }
+  .IS p{
+    text-align: center;
+    margin: 10px;
+  }
