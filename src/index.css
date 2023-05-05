@@ -431,7 +431,12 @@ transform: scale(1.05);
     display: block;
     max-width: 100%;
     margin: 0 auto;
+    
 
+  }
+  .whypfmbg{
+    position: relative;
+    
   }
   .whypfmbtn{
     text-decoration: none;
@@ -448,12 +453,10 @@ transform: scale(1.05);
   }
   .textPFMPROJECT{
  
-    position:relative;
-right: 10px;
- bottom: 15%;
-    
-padding: 10px 20px;    
-background: rgba(0,0,0,0.5);
+    position: absolute;
+   
+    padding: 2.5% 5%;
+    background: rgba(0,0,0,0.5);
     max-width: 500px;
   }
   .textPFMPROJECT h2{

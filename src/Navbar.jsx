@@ -99,11 +99,11 @@ const Navbar=()=>{
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
           <li><NavLink className="dropdown-item" to="/stonefacadesolution"> Stone Facade Solution</NavLink></li>
             <li><NavLink className="dropdown-item" to="/columnandpilaster">Columns & Pilaster</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/deliveryprocess">Delivery Process</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/stonepediments">Stone Pediment</NavLink></li>
             
-            <li><NavLink className="dropdown-item" to="/interiorfitout">Interior Fit Out</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/luxuryinteriorproject">Villa Renovation</NavLink></li>
-            <li><NavLink className="dropdown-item" to="/constructionconsulting">Construction Consulting</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/stoneportico">Stone Portico</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/balustradeparapetsolution">Balustrade & Parapet Solution</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/luxurystaircase">Luxury Staircase Solution</NavLink></li>
        </ul>
         
         </li>

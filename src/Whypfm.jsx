@@ -59,16 +59,19 @@ Royal Palace For Solution For Several Presidents World-Widely."
 
     </div>
 </div>
+<div className="wpfmbgt">
 <div className="wpfmbg">
+
 <h3 className="text-center" style={{color:"#fff",lineHeight:"45px"}}>FEATURED HOUSE , PALACE , VILLA , CASTLE , MANOR PROJECT</h3>
 <img  className="whypfmimg" src="https://icdn.tradew.com/file/201811/1573270/jpg/7577704.jpg?x-oss-process=image/format,webp"/>
 </div>
+
 <div className="textPFMPROJECT">
     <span style={{color:"#FFF"}}>PFM Project</span>
     <h2>We want to keep you updated with our on going and future projects.</h2>
     <Link className="whypfmbtn" to="">View Our Project</Link>
 </div>
-
+</div>
         </>
     )
 }

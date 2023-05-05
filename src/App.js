@@ -24,6 +24,10 @@ import Constructionconsulting from "./Constructionconsulting";
 import LuxuryDesignService from "./LuxuryDesignService";
 import StoneFacadeSolution from "./StoneFacadeSolution";
 import ColumnsandPilaster from "./ColumnsandPilaster";
+import StonePediments from "./StonePediment";
+import StonePortico from "./StonePortico";
+import BalustradeParapetsolution from "./BalustradeParapetsolution";
+import LuxuryStairCase from "./LuxuryStairCase";
 const App=()=>{
 
  
@@ -51,6 +55,12 @@ const App=()=>{
 <Route  path="/luxurydesignservice" element={<LuxuryDesignService/>}/>
 <Route  path="/stonefacadesolution" element={<StoneFacadeSolution/>}/>
 <Route  path="/columnandpilaster" element={<ColumnsandPilaster/>}/>
+<Route  path="/stonepediments" element={<StonePediments/>}/>
+<Route  path="/stoneportico" element={<StonePortico/>}/>
+<Route  path="/balustradeparapetsolution" element={<BalustradeParapetsolution/>}/>
+<Route  path="/luxurystaircase" element={<LuxuryStairCase/>}/>
+
+
 </Routes>
 
 <Footer/>
